@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Decision maker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <button onclick="decide()">Insult me u lil something</button>
+
+  <script>
+    function decide (){
+      // array with items
+    var items = ["paprica","face"];
+    // random item from above array
+  var randomItem = items[Math.floor(Math.random() * 2)]
+
+      // array with adjectives
+    var adjectives = ["gross","stupidelish"];
+    // random adjectives from  array
+  var randomAdjective = adjectives[Math.floor(Math.random() * 2)]
+
+
+      // array with words
+    var words = ["pumpkin","toilet"];
+    // random words from  array
+  var randomWord = words[Math.floor(Math.random() * 2)]
+
+
+
+  
+  alert("Your " + randomItem + " looks like " + randomAdjective  + " " + randomWord)
+    }
+        </script>
+</body>
+</html>
